@@ -1,0 +1,68 @@
+body {
+        text-align: center;
+        background-color: cornflowerblue;
+      }
+      h1 {
+        font-size: 40px;
+        color: white;
+        margin-bottom: 0px;
+      }
+      .deleter {
+        margin-left: 20px;
+        color: red;
+        cursor: pointer;
+        text-align: right;
+      }
+      input {
+        width: 200px;
+        height: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 14px;
+        background-color: white;
+      }
+      textarea {
+        width: 300px;
+        height: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 14px;
+        background-color: white;
+
+      }
+      .dataTitle {
+        cursor: pointer;
+        font-size: 24px;
+      }
+      #results {
+        width: 300px;
+        height: 250px;
+        overflow: auto;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: white;
+        display: inline-block;
+        word-wrap: break-word;
+      }
+      #actionbutton {
+        display: inline-block;
+      }
+      #buttons {
+        margin: 20px;
+      }
+
+.loader {
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid grey; /* Blue */
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 2s linear infinite;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
